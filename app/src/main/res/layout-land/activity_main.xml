@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/blood_pressure_image" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_s_pressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="@string/edt_s_pressure"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tv_error_sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F30404" />
+
+            <EditText
+                android:id="@+id/edt_d_pressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="@string/edt_d_pressure"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tv_error_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F30404" />
+
+            <EditText
+                android:id="@+id/edt_heart_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="@string/edt_heart_rate"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tv_error_hr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F30404" />
+
+            <Button
+                android:id="@+id/bt_generate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/bt_generate" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

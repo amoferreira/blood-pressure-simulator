@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Blood Pressure Meter Simulator</string>
+    <string name="app_version">Version 2.0.0</string>
+    <string name="tv_title">Blood Pressure Meter Simulator</string>
+    <string name="edt_d_pressure">Insert diastolic pressure (mmHg)</string>
+    <string name="edt_s_pressure">Insert systolic pressure (mmHg)</string>
+    <string name="edt_heart_rate">Insert heart rate (beats per min)</string>
+    <string name="bt_generate">Generate</string>
+    <string name="tv_empty"></string>
+    <string name="tv_error">Invalid input!</string>
+    <string name="help_info">
+        <b><big>What is Blood Pressure Meter Simulator?</big></b> \n\n\t This app generates a QR code containing information regarding your systolic and diastolic pressures and heart rate values, along with the associated timestamp. \n\n\t In the first screen, you should enter the pressure values in mmHg and the heart rate value in beats per minute. Then, after clicking the generate button, the QR code to be read is shown. \n\n\t The values below the QR code represent the values inserted. If they are not correct, you should go back and repeat the process, so a new QR code is generated.
+    </string>
+</resources>
