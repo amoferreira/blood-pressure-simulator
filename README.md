@@ -1,2 +1,2 @@
 # blood-pressure-simulator
-Blood pressure simulator - QR code generator 
+Blood pressure simulator mobile app - QR code generator 
